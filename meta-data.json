@@ -11,7 +11,8 @@
         "count_pos": "3",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 2,
@@ -25,7 +26,8 @@
         "count_pos": "3",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 3,
@@ -39,7 +41,8 @@
         "count_pos": "3",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 4,
@@ -53,7 +56,8 @@
         "count_pos": "3",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 5,
@@ -67,7 +71,8 @@
         "count_pos": "3",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 6,
@@ -81,7 +86,8 @@
         "count_pos": "2",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 7,
@@ -95,7 +101,8 @@
         "count_pos": "2",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 8,
@@ -109,7 +116,8 @@
         "count_pos": "2",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 9,
@@ -123,7 +131,8 @@
         "count_pos": "2",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 10,
@@ -137,7 +146,8 @@
         "count_pos": "2",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 11,
@@ -151,7 +161,8 @@
         "count_pos": "1",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 12,
@@ -165,7 +176,8 @@
         "count_pos": "1",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 13,
@@ -179,7 +191,8 @@
         "count_pos": "1",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "test_framework": "pytest"
     },
     {
         "id": 14,
@@ -193,7 +206,8 @@
         "count_pos": "1",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     },
     {
         "id": 15,
@@ -207,7 +221,8 @@
         "count_pos": "1",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     },
     {
         "id": 16,
@@ -221,7 +236,8 @@
         "count_pos": "1",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     },
     {
         "id": 17,
@@ -235,7 +251,8 @@
         "count_pos": "1",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     },
     {
         "id": 18,
@@ -249,7 +266,8 @@
         "count_pos": "0",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     },
     {
         "id": 19,
@@ -263,7 +281,8 @@
         "count_pos": "0",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     },
     {
         "id": 20,
@@ -277,7 +296,8 @@
         "count_pos": "0",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     },
     {
         "id": 21,
@@ -291,7 +311,8 @@
         "count_pos": "1",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     },
     {
         "id": 22,
@@ -305,7 +326,8 @@
         "count_pos": "0",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     },
     {
         "id": 23,
@@ -319,7 +341,8 @@
         "count_pos": "0",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     },
     {
         "id": 24,
@@ -333,7 +356,8 @@
         "count_pos": "0",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     },
     {
         "id": 25,
@@ -347,7 +371,8 @@
         "count_pos": "0",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     },
     {
         "id": 26,
@@ -361,6 +386,7 @@
         "count_pos": "0",
         "test_timeout": 5,
         "bug_type": "",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "test_framework": "pytest"
     }
 ]
