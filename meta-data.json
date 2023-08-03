@@ -2,7 +2,7 @@
     {
         "id": 1,
         "subject": "determine-the-winner-of-a-bowling-game",
-        "bug_id": "1",
+        "bug_id": "bug-1",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_3",
@@ -17,7 +17,7 @@
     {
         "id": 2,
         "subject": "determine-the-winner-of-a-bowling-game",
-        "bug_id": "2",
+        "bug_id": "bug-2",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_3",
@@ -32,7 +32,7 @@
     {
         "id": 3,
         "subject": "determine-the-winner-of-a-bowling-game",
-        "bug_id": "3",
+        "bug_id": "bug-3",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_3",
@@ -47,7 +47,7 @@
     {
         "id": 4,
         "subject": "determine-the-winner-of-a-bowling-game",
-        "bug_id": "4",
+        "bug_id": "bug-4",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_3",
@@ -62,7 +62,7 @@
     {
         "id": 5,
         "subject": "determine-the-winner-of-a-bowling-game",
-        "bug_id": "5",
+        "bug_id": "bug-5",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_3",
@@ -77,7 +77,7 @@
     {
         "id": 6,
         "subject": "find-the-maximum-divisibility-score",
-        "bug_id": "1",
+        "bug_id": "bug-1",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_2",
@@ -92,7 +92,7 @@
     {
         "id": 7,
         "subject": "find-the-maximum-divisibility-score",
-        "bug_id": "2",
+        "bug_id": "bug-2",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_2",
@@ -107,7 +107,7 @@
     {
         "id": 8,
         "subject": "find-the-maximum-divisibility-score",
-        "bug_id": "3",
+        "bug_id": "bug-3",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_2",
@@ -122,7 +122,7 @@
     {
         "id": 9,
         "subject": "find-the-maximum-divisibility-score",
-        "bug_id": "4",
+        "bug_id": "bug-4",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_2",
@@ -137,7 +137,7 @@
     {
         "id": 10,
         "subject": "find-the-maximum-divisibility-score",
-        "bug_id": "5",
+        "bug_id": "bug-5",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_2",
@@ -152,7 +152,7 @@
     {
         "id": 11,
         "subject": "find-the-width-of-columns-of-a-grid",
-        "bug_id": "1",
+        "bug_id": "bug-1",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_1",
@@ -167,7 +167,7 @@
     {
         "id": 12,
         "subject": "find-the-width-of-columns-of-a-grid",
-        "bug_id": "2",
+        "bug_id": "bug-2",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_1",
@@ -182,7 +182,7 @@
     {
         "id": 13,
         "subject": "find-the-width-of-columns-of-a-grid",
-        "bug_id": "3",
+        "bug_id": "bug-3",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_1",
@@ -197,7 +197,7 @@
     {
         "id": 14,
         "subject": "prime-pairs-with-target-sum",
-        "bug_id": "1",
+        "bug_id": "bug-1",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_0",
@@ -212,7 +212,7 @@
     {
         "id": 15,
         "subject": "prime-pairs-with-target-sum",
-        "bug_id": "2",
+        "bug_id": "bug-2",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_0",
@@ -227,7 +227,7 @@
     {
         "id": 16,
         "subject": "prime-pairs-with-target-sum",
-        "bug_id": "3",
+        "bug_id": "bug-3",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_0",
@@ -242,7 +242,7 @@
     {
         "id": 17,
         "subject": "prime-pairs-with-target-sum",
-        "bug_id": "4",
+        "bug_id": "bug-4",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_0",
@@ -257,7 +257,7 @@
     {
         "id": 18,
         "subject": "ways-to-split-array-into-good-subarrays",
-        "bug_id": "1",
+        "bug_id": "bug-1",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_0,test_1",
@@ -272,7 +272,7 @@
     {
         "id": 19,
         "subject": "ways-to-split-array-into-good-subarrays",
-        "bug_id": "2",
+        "bug_id": "bug-2",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_0,test_1",
@@ -287,7 +287,7 @@
     {
         "id": 20,
         "subject": "ways-to-split-array-into-good-subarrays",
-        "bug_id": "3",
+        "bug_id": "bug-3",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_0,test_1",
@@ -302,7 +302,7 @@
     {
         "id": 21,
         "subject": "ways-to-split-array-into-good-subarrays",
-        "bug_id": "4",
+        "bug_id": "bug-4",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_1",
@@ -317,7 +317,7 @@
     {
         "id": 22,
         "subject": "ways-to-split-array-into-good-subarrays",
-        "bug_id": "5",
+        "bug_id": "bug-5",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_0,test_1",
@@ -332,7 +332,7 @@
     {
         "id": 23,
         "subject": "special-permutations",
-        "bug_id": "1",
+        "bug_id": "bug-1",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_0,test_1",
@@ -347,7 +347,7 @@
     {
         "id": 24,
         "subject": "special-permutations",
-        "bug_id": "2",
+        "bug_id": "bug-2",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_0,test_1",
@@ -362,7 +362,7 @@
     {
         "id": 25,
         "subject": "special-permutations",
-        "bug_id": "3",
+        "bug_id": "bug-3",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_0,test_1",
@@ -377,7 +377,7 @@
     {
         "id": 26,
         "subject": "special-permutations",
-        "bug_id": "4",
+        "bug_id": "bug-4",
         "source_file": "solution.py",
         "line_numbers": [],
         "failing_test": "test_0,test_1",
