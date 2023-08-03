@@ -5,17 +5,21 @@
         "bug_id": "bug-1",        
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_3",
-        "passing_test": "test_0,test_1,test_2",
+        "failing_test": ["test_3.py::test_3"],
+        "passing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1",
+            "test_2.py::test_2"
+        ],
         "count_neg": "1",
         "count_pos": "3",
         "test_timeout": 5,
         "bug_type": "",
         "config_script": "",
         "build_script": "",
-        "test_script": "run_test",        
-        "language": "python",
+        "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -24,8 +28,12 @@
         "bug_id": "bug-2",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_3",
-        "passing_test": "test_0,test_1,test_2",
+        "failing_test": ["test_3.py::test_3"],
+        "passing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1",
+            "test_2.py::test_2"
+        ],
         "count_neg": "1",
         "count_pos": "3",
         "test_timeout": 5,
@@ -34,6 +42,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -42,8 +51,12 @@
         "bug_id": "bug-3",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_3",
-        "passing_test": "test_0,test_1,test_2",
+        "failing_test": ["test_3.py::test_3"],
+        "passing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1",
+            "test_2.py::test_2"
+        ],
         "count_neg": "1",
         "count_pos": "3",
         "test_timeout": 5,
@@ -52,6 +65,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -60,8 +74,12 @@
         "bug_id": "bug-4",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_3",
-        "passing_test": "test_0,test_1,test_2",
+        "failing_test": ["test_3.py::test_3"],
+        "passing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1",
+            "test_2.py::test_2"
+        ],
         "count_neg": "1",
         "count_pos": "3",
         "test_timeout": 5,
@@ -70,6 +88,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -78,8 +97,12 @@
         "bug_id": "bug-5",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_3",
-        "passing_test": "test_0,test_1,test_2",
+        "failing_test": ["test_3.py::test_3"],
+        "passing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1",
+            "test_2.py::test_2"
+        ],
         "count_neg": "1",
         "count_pos": "3",
         "test_timeout": 5,
@@ -88,6 +111,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -96,8 +120,11 @@
         "bug_id": "bug-1",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_2",
-        "passing_test": "test_0,test_1",
+        "failing_test": ["test_2.py::test_2"],
+        "passing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
         "count_neg": "1",
         "count_pos": "2",
         "test_timeout": 5,
@@ -106,6 +133,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -114,8 +142,11 @@
         "bug_id": "bug-2",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_2",
-        "passing_test": "test_0,test_1",
+        "failing_test": ["test_2.py::test_2"],
+        "passing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
         "count_neg": "1",
         "count_pos": "2",
         "test_timeout": 5,
@@ -124,6 +155,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -132,8 +164,11 @@
         "bug_id": "bug-3",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_2",
-        "passing_test": "test_0,test_1",
+        "failing_test": ["test_2.py::test_2"],
+        "passing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
         "count_neg": "1",
         "count_pos": "2",
         "test_timeout": 5,
@@ -142,6 +177,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -150,8 +186,11 @@
         "bug_id": "bug-4",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_2",
-        "passing_test": "test_0,test_1",
+        "failing_test": ["test_2.py::test_2"],
+        "passing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
         "count_neg": "1",
         "count_pos": "2",
         "test_timeout": 5,
@@ -160,6 +199,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -168,8 +208,11 @@
         "bug_id": "bug-5",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_2",
-        "passing_test": "test_0,test_1",
+        "failing_test": ["test_2.py::test_2"],
+        "passing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
         "count_neg": "1",
         "count_pos": "2",
         "test_timeout": 5,
@@ -178,6 +221,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -186,8 +230,8 @@
         "bug_id": "bug-1",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_1",
-        "passing_test": "test_0",
+        "failing_test": ["test_1.py::test_1"],
+        "passing_test": ["test_0.py::test_0"],
         "count_neg": "1",
         "count_pos": "1",
         "test_timeout": 5,
@@ -196,6 +240,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -204,8 +249,8 @@
         "bug_id": "bug-2",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_1",
-        "passing_test": "test_0",
+        "failing_test": ["test_1.py::test_1"],
+        "passing_test": ["test_0.py::test_0"],
         "count_neg": "1",
         "count_pos": "1",
         "test_timeout": 5,
@@ -214,6 +259,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -222,8 +268,8 @@
         "bug_id": "bug-3",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_1",
-        "passing_test": "test_0",
+        "failing_test": ["test_1.py::test_1"],
+        "passing_test": ["test_0.py::test_0"],
         "count_neg": "1",
         "count_pos": "1",
         "test_timeout": 5,
@@ -232,6 +278,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Easy",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -240,8 +287,8 @@
         "bug_id": "bug-1",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_0",
-        "passing_test": "test_1",
+        "failing_test": ["test_0.py::test_0"],
+        "passing_test": ["test_1.py::test_1"],
         "count_neg": "1",
         "count_pos": "1",
         "test_timeout": 5,
@@ -250,6 +297,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -258,8 +306,8 @@
         "bug_id": "bug-2",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_0",
-        "passing_test": "test_1",
+        "failing_test": ["test_0.py::test_0"],
+        "passing_test": ["test_1.py::test_1"],
         "count_neg": "1",
         "count_pos": "1",
         "test_timeout": 5,
@@ -268,6 +316,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -276,8 +325,8 @@
         "bug_id": "bug-3",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_0",
-        "passing_test": "test_1",
+        "failing_test": ["test_0.py::test_0"],
+        "passing_test": ["test_1.py::test_1"],
         "count_neg": "1",
         "count_pos": "1",
         "test_timeout": 5,
@@ -286,6 +335,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -294,8 +344,8 @@
         "bug_id": "bug-4",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_0",
-        "passing_test": "test_1",
+        "failing_test": ["test_0.py::test_0"],
+        "passing_test": ["test_1.py::test_1"],
         "count_neg": "1",
         "count_pos": "1",
         "test_timeout": 5,
@@ -304,6 +354,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -312,8 +363,11 @@
         "bug_id": "bug-1",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_0,test_1",
-        "passing_test": "",
+        "failing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
+        "passing_test": [],
         "count_neg": "2",
         "count_pos": "0",
         "test_timeout": 5,
@@ -322,6 +376,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -330,8 +385,11 @@
         "bug_id": "bug-2",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_0,test_1",
-        "passing_test": "",
+        "failing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
+        "passing_test": [],
         "count_neg": "2",
         "count_pos": "0",
         "test_timeout": 5,
@@ -340,6 +398,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -348,8 +407,11 @@
         "bug_id": "bug-3",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_0,test_1",
-        "passing_test": "",
+        "failing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
+       "passing_test": [],
         "count_neg": "2",
         "count_pos": "0",
         "test_timeout": 5,
@@ -358,6 +420,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -366,8 +429,8 @@
         "bug_id": "bug-4",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_1",
-        "passing_test": "test_0",
+        "failing_test": ["test_1.py::test_1"],
+        "passing_test": ["test_0.py::test_0"],
         "count_neg": "1",
         "count_pos": "1",
         "test_timeout": 5,
@@ -376,6 +439,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -384,8 +448,11 @@
         "bug_id": "bug-5",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_0,test_1",
-        "passing_test": "",
+        "failing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
+       "passing_test": [],
         "count_neg": "2",
         "count_pos": "0",
         "test_timeout": 5,
@@ -394,6 +461,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -402,8 +470,11 @@
         "bug_id": "bug-1",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_0,test_1",
-        "passing_test": "",
+        "failing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
+       "passing_test": [],
         "count_neg": "2",
         "count_pos": "0",
         "test_timeout": 5,
@@ -412,6 +483,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -420,8 +492,11 @@
         "bug_id": "bug-2",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_0,test_1",
-        "passing_test": "",
+        "failing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
+       "passing_test": [],
         "count_neg": "2",
         "count_pos": "0",
         "test_timeout": 5,
@@ -430,6 +505,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -438,8 +514,11 @@
         "bug_id": "bug-3",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_0,test_1",
-        "passing_test": "",
+        "failing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
+       "passing_test": [],
         "count_neg": "2",
         "count_pos": "0",
         "test_timeout": 5,
@@ -448,6 +527,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     },
     {
@@ -456,8 +536,11 @@
         "bug_id": "bug-4",
         "source_file": "solution.py",
         "line_numbers": [],
-        "failing_test": "test_0,test_1",
-        "passing_test": "",
+        "failing_test": [
+            "test_0.py::test_0",
+            "test_1.py::test_1"
+        ],
+        "passing_test": [],
         "count_neg": "2",
         "count_pos": "0",
         "test_timeout": 5,
@@ -466,6 +549,7 @@
         "build_script": "",
         "test_script": "run_test",
         "difficulty": "Medium",
+        "language": "python",
         "test_framework": "pytest"
     }
 ]
