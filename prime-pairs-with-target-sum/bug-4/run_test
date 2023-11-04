@@ -21,7 +21,7 @@ TEST_FILE=$dir_test/$(echo $TEST_ID | cut -d ":" -f 1)
 
 if [ -f "$TEST_FILE" ]; then
     cd $dir_test
-    pytest ${TEST_ID}.py > /dev/null 2>&1
+    pytest ${TEST_ID} > /dev/null 2>&1
     EXIT_CODE=$?
 else
     echo "unknown test case ${TEST_FILE}"
