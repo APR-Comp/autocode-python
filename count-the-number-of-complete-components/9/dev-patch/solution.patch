@@ -1,0 +1,97 @@
+--- count-the-number-of-complete-components/9/src/solution.py	2023-11-27 21:36:38.175117720 +0200
++++ count-the-number-of-complete-components/reference.py	2023-12-20 09:39:25.719708151 +0200
+@@ -1,59 +1,38 @@
+ from typing import *
+-"""python
+- You are given an integer n. There is an undirected graph with n vertices, numbered from 0 to n - 1. You are given a 2D integer array edges where edges[i] = [ai, bi] denotes that there exists an undirected edge connecting vertices ai and bi.
+-Return the number of complete connected components of the graph.
+-A connected component is a subgraph of a graph in which there exists a path between any two vertices, and no vertex of the subgraph shares an edge with a vertex outside of the subgraph.
+-A connected component is said to be complete if there exists an edge between every pair of its vertices.
+- 
+-Example 1:
+-
+-
+-Input: n = 6, edges = [[0,1],[0,2],[1,2],[3,4]]
+-Output: 3
+-Explanation: From the picture above, one can see that all of the components of this graph are complete.
+-
+-Example 2:
+-
+-
+-Input: n = 6, edges = [[0,1],[0,2],[1,2],[3,4],[3,5]]
+-Output: 1
+-Explanation: The component containing vertices 0, 1, and 2 is complete since there is an edge between every pair of two vertices. On the other hand, the component containing vertices 3, 4, and 5 is not complete since there is no edge between vertices 4 and 5. Thus, the number of complete components in this graph is 1.
+-
+- 
+-Constraints:
+-
+-1 <= n <= 50
+-0 <= edges.length <= n * (n - 1) / 2
+-edges[i].length == 2
+-0 <= ai, bi <= n - 1
+-ai != bi
+-There are no repeated edges.
+-
+- """
+ class Solution:
+     def countCompleteComponents(self, n: int, edges: List[List[int]]) -> int:
+-        # create a graph using adjacency list representation
+-        graph = [[] for _ in range(n)]
+-        for edge in edges:
+-            u, v = edge
+-            graph[u].append(v)
+-            graph[v].append(u)
+-        
+-        # perform depth-first search to find connected components
+-        def dfs(node):
+-            visited.add(node)
+-            for neighbor in graph[node]:
+-                if neighbor not in visited:
+-                    dfs(neighbor)
+-        
+-        # initialize variables
++                # Helper function to check if a component is complete
++        def is_complete(graph, component):
++            vertices = len(component)
++            edges = sum(len(graph[v]) for v in component) // 2
++            return edges == vertices * (vertices - 1) // 2
++
++        # Initialize graph
++        graph = {i: [] for i in range(n)}
++        for a, b in edges:
++            graph[a].append(b)
++            graph[b].append(a)
++
++        # Initialize visited set and count of complete components
+         visited = set()
+-        count = 0
+-        
+-        # count the number of complete connected components
+-        for node in range(n):
+-            if node not in visited:
+-                dfs(node)
+-                count += 1
+-        
+-        return count
++        complete_components = 0
++
++        for vertex in range(n):
++            if vertex not in visited:
++                # Perform BFS to find all vertices in the current connected component
++                queue = [vertex]
++                visited.add(vertex)
++                component = []
++                while queue:
++                    v = queue.pop(0)
++                    component.append(v)
++                    for neighbor in graph[v]:
++                        if neighbor not in visited:
++                            queue.append(neighbor)
++                            visited.add(neighbor)
++
++                # Check if the component is complete
++                if is_complete(graph, component):
++                    complete_components += 1
++
++        return complete_components
+\ No newline at end of file

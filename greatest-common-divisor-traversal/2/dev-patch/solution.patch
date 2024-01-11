@@ -1,0 +1,116 @@
+--- greatest-common-divisor-traversal/2/src/solution.py	2023-11-27 21:36:38.288452184 +0200
++++ greatest-common-divisor-traversal/2/src/..//../reference.py	2023-12-19 10:47:29.978096616 +0200
+@@ -1,83 +1,34 @@
+ from typing import *
+-"""python
+- You are given a 0-indexed integer array nums, and you are allowed to traverse between its indices. You can traverse between index i and index j, i != j, if and only if gcd(nums[i], nums[j]) > 1, where gcd is the greatest common divisor.
+-Your task is to determine if for every pair of indices i and j in nums, where i < j, there exists a sequence of traversals that can take us from i to j.
+-Return true if it is possible to traverse between all such pairs of indices, or false otherwise.
+- 
+-Example 1:
+-
+-Input: nums = [2,3,6]
+-Output: true
+-Explanation: In this example, there are 3 possible pairs of indices: (0, 1), (0, 2), and (1, 2).
+-To go from index 0 to index 1, we can use the sequence of traversals 0 -> 2 -> 1, where we move from index 0 to index 2 because gcd(nums[0], nums[2]) = gcd(2, 6) = 2 > 1, and then move from index 2 to index 1 because gcd(nums[2], nums[1]) = gcd(6, 3) = 3 > 1.
+-To go from index 0 to index 2, we can just go directly because gcd(nums[0], nums[2]) = gcd(2, 6) = 2 > 1. Likewise, to go from index 1 to index 2, we can just go directly because gcd(nums[1], nums[2]) = gcd(3, 6) = 3 > 1.
+-
+-Example 2:
+-
+-Input: nums = [3,9,5]
+-Output: false
+-Explanation: No sequence of traversals can take us from index 0 to index 2 in this example. So, we return false.
+-
+-Example 3:
+-
+-Input: nums = [4,3,12,8]
+-Output: true
+-Explanation: There are 6 possible pairs of indices to traverse between: (0, 1), (0, 2), (0, 3), (1, 2), (1, 3), and (2, 3). A valid sequence of traversals exists for each pair, so we return true.
+-
+- 
+-Constraints:
+-
+-1 <= nums.length <= 10 ** 5
+-1 <= nums[i] <= 10 ** 5
+-
+- """
+-class Solution:
+-    def canTraverseAllPairs(self, nums: List[int]) -> bool:
+-        from typing import List
+-from math import gcd
+-from collections import defaultdict
+-
++import math
+ class Solution:
+     def canTraverseAllPairs(self, nums: List[int]) -> bool:
+-        # Use Sieve of Eratosthenes to generate a list of prime numbers
+-        primes = [0, 0] + [1] * (10**5 - 1)
+-        for i in range(2, int(10**5**0.5) + 1):
+-            if primes[i]:
+-                for j in range(i*2, 10**5 + 1, i):
+-                    primes[j] = 0
+-        primes = [i for i in range(2, 10**5 + 1) if primes[i]]
+-
+-        # Create a list to store indices for each prime number
+-        index_lists = defaultdict(list)
+-        for index, num in enumerate(nums):
+-            for prime in primes:
+-                if prime * prime > num:
+-                    break
+-                if num % prime == 0:
+-                    while num % prime == 0:
+-                        num /= prime
+-                    index_lists[prime].append(index)
+-                if num > 1:
+-                    index_lists[num].append(index)
+-
+-        # Create a list to store whether each index is visited
+-        visited = [0] * len(nums)
+-        stack = [0]
+-        while stack:
+-            index = stack.pop()
+-            visited[index] = 1
+-            for prime in primes:
+-                if prime * prime > nums[index]:
+-                    break
+-                if nums[index] % prime == 0:
+-                    while nums[index] % prime == 0:
+-                        nums[index] /= prime
+-                    if index_lists[prime]:
+-                        stack += index_lists[prime]
+-                        index_lists[prime] = []
+-                if nums[index] > 1 and index_lists[nums[index]]:
+-                    stack += index_lists[nums[index]]
+-                    index_lists[nums[index]] = []
++        n = len(nums)
++        MAX = max(nums)+1
++        primes = [i for i in range(MAX)]
++        for i in range(2, int(math.sqrt(MAX))+1):
++            if primes[i] == i:
++                for j in range(i*i, MAX, i):
++                    primes[j] = min(i, primes[j])
++
++        graph = [[] for _ in range(n)]
++        last_prime_index = [-1]*MAX
++        for i in range(n):
++            x = nums[i]
++            while x > 1:
++                prime = primes[x]
++                if last_prime_index[prime] != -1:
++                    graph[i].append(last_prime_index[prime])
++                    graph[last_prime_index[prime]].append(i)
++                last_prime_index[prime] = i
++                while x % prime == 0:
++                    x //= prime
++
++        seen = [0]*n
++        def dfs(i):
++            seen[i] = 1
++            for j in graph[i]:
++                if not seen[j]:
++                    dfs(j)
+ 
+-        # Check if all indices are visited
+-        return sum(visited) == len(nums)
++        dfs(0)
++        return all(seen)

@@ -1,0 +1,76 @@
+--- minimize-string-length/1/src/solution.py	2023-11-27 21:36:38.381786450 +0200
++++ minimize-string-length/1/src/..//../reference.py	2023-12-19 10:48:04.735063877 +0200
+@@ -1,71 +1,5 @@
+ from typing import *
+-"""python
+- Given a 0-indexed string s, repeatedly perform the following operation any number of times:
+ 
+-Choose an index i in the string, and let c be the character in position i. Delete the closest occurrence of c to the left of i (if any) and the closest occurrence of c to the right of i (if any).
+-
+-Your task is to minimize the length of s by performing the above operation any number of times.
+-Return an integer denoting the length of the minimized string.
+- 
+-Example 1:
+-
+-Input: s = "aaabc"
+-Output: 3
+-Explanation: In this example, s is "aaabc". We can start by selecting the character 'a' at index 1. We then remove the closest 'a' to the left of index 1, which is at index 0, and the closest 'a' to the right of index 1, which is at index 2. After this operation, the string becomes "abc". Any further operation we perform on the string will leave it unchanged. Therefore, the length of the minimized string is 3.
+-Example 2:
+-
+-Input: s = "cbbd"
+-Output: 3
+-Explanation: For this we can start with character 'b' at index 1. There is no occurrence of 'b' to the left of index 1, but there is one to the right at index 2, so we delete the 'b' at index 2. The string becomes "cbd" and further operations will leave it unchanged. Hence, the minimized length is 3. 
+-
+-Example 3:
+-
+-Input: s = "dddaaa"
+-Output: 2
+-Explanation: For this, we can start with the character 'd' at index 1. The closest occurrence of a 'd' to its left is at index 0, and the closest occurrence of a 'd' to its right is at index 2. We delete both index 0 and 2, so the string becomes "daaa". In the new string, we can select the character 'a' at index 2. The closest occurrence of an 'a' to its left is at index 1, and the closest occurrence of an 'a' to its right is at index 3. We delete both of them, and the string becomes "da". We cannot minimize this further, so the minimized length is 2.
+-
+- 
+- 
+-Constraints:
+-
+-1 <= s.length <= 100
+-s contains only lowercase English letters
+-
+- """
+ class Solution:
+     def minimizedStringLength(self, s: str) -> int:
+-        from collections import defaultdict
+-        s = list(s)
+-        left, right = defaultdict(list), defaultdict(list)
+-
+-        # Start by filling the left and right dictionaries
+-        # left dictionary will have all the indices of each character in increasing order
+-        # right dictionary will have all the indices of each character in decreasing order
+-        for i in range(len(s)):
+-            left[s[i]].append(i)
+-            right[s[i]].insert(0, i)
+-
+-        # Start the process of the string minimization
+-        while True:
+-            change = False
+-            for char in set(s):
+-                if not right[char]:  # If there are no more occurrences of char, skip this character
+-                    continue
+-                # We can delete the char if there is more than one occurrence of it.
+-                # For this, we need to find the rightmost character in the left and leftmost character
+-                # in the right and delete them, if it can be done without causing issues to the order.
+-                if len(left[char]) > 1 and left[char][-1] < right[char][0]:
+-                    left[char].pop()
+-                    right[char].pop(0)
+-                    change = True  # A change has been made
+-                # We can also delete the char if there is an occurrence to its left and right.
+-                elif len(left[char]) > 0 and len(right[char]) > 1 and left[char][-1] < right[char][1]:
+-                    left[char].pop()
+-                    right[char].pop(1)
+-                    change = True  # A change has been made
+-
+-            if not change:
+-                break  # If no change has been made in this iteration, it means that we can't minimize further
+-
+-        # Once the process is complete, return the length of the minimized string
+-        return sum(len(right[char]) for char in right)
++        return len(set((s)))
+\ No newline at end of file

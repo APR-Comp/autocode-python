@@ -1,0 +1,97 @@
+--- maximum-sum-queries/4/src/solution.py	2023-11-27 21:36:38.375119716 +0200
++++ maximum-sum-queries/4/src/..//../reference.py	2023-11-27 23:16:59.288230098 +0200
+@@ -1,72 +1,25 @@
+-from typing import *
+-"""python
+- You are given two 0-indexed integer arrays nums1 and nums2, each of length n, and a 1-indexed 2D array queries where queries[i] = [xi, yi].
+-For the i ** th query, find the maximum value of nums1[j] + nums2[j] among all indices j (0 <= j < n), where nums1[j] >= xi and nums2[j] >= yi, or -1 if there is no j satisfying the constraints.
+-Return an array answer where answer[i] is the answer to the i ** th query.
+- 
+-Example 1:
++from bisect import bisect_left
++from collections import defaultdict
++from typing import List
+ 
+-Input: nums1 = [4,3,1,2], nums2 = [2,4,9,5], queries = [[4,1],[1,3],[2,5]]
+-Output: [6,10,7]
+-Explanation: 
+-For the 1st query xi = 4 and yi = 1, we can select index j = 0 since nums1[j] >= 4 and nums2[j] >= 1. The sum nums1[j] + nums2[j] is 6, and we can show that 6 is the maximum we can obtain.
+ 
+-For the 2nd query xi = 1 and yi = 3, we can select index j = 2 since nums1[j] >= 1 and nums2[j] >= 3. The sum nums1[j] + nums2[j] is 10, and we can show that 10 is the maximum we can obtain. 
+-
+-For the 3rd query xi = 2 and yi = 5, we can select index j = 3 since nums1[j] >= 2 and nums2[j] >= 5. The sum nums1[j] + nums2[j] is 7, and we can show that 7 is the maximum we can obtain.
+-
+-Therefore, we return [6,10,7].
+-
+-Example 2:
+-
+-Input: nums1 = [3,2,5], nums2 = [2,3,4], queries = [[4,4],[3,2],[1,1]]
+-Output: [9,9,9]
+-Explanation: For this example, we can use index j = 2 for all the queries since it satisfies the constraints for each query.
+-
+-Example 3:
+-
+-Input: nums1 = [2,1], nums2 = [2,3], queries = [[3,3]]
+-Output: [-1]
+-Explanation: There is one query in this example with xi = 3 and yi = 3. For every index, j, either nums1[j] < xi or nums2[j] < yi. Hence, there is no solution. 
+-
+- 
+-Constraints:
+-
+-nums1.length == nums2.length 
+-n == nums1.length 
+-1 <= n <= 10 ** 5
+-1 <= nums1[i], nums2[i] <= 10 ** 9 
+-1 <= queries.length <= 10 ** 5
+-queries[i].length == 2
+-xi == queries[i][1]
+-yi == queries[i][2]
+-1 <= xi, yi <= 10 ** 9
+-
+- """
+ class Solution:
+     def maximumSumQueries(self, nums1: List[int], nums2: List[int], queries: List[List[int]]) -> List[int]:
+-        import bisect
+-        n = len(nums1)
+-        sum_pairs = sorted([(x + y, x, y) for x, y in zip(nums1, nums2)], reverse=True)
+-        maxs = [0] * (n + 1)
+-        for i in range(n):
+-            maxs[i + 1] = max(maxs[i], sum_pairs[i][1])
+-        
+-        result = []
+-        for x, y in queries:
+-            idx = bisect.bisect_left(maxs, x)
+-            if idx <= n and maxs[idx] >= x:
+-                lo, hi = 0, idx
+-                while lo < hi:
+-                    mid = (lo + hi) // 2
+-                    if sum_pairs[mid][2] >= y:
+-                        lo = mid + 1
+-                    else:
+-                        hi = mid
+-                if sum_pairs[lo - 1][2] < y: 
+-                    result.append(-1)
+-                else: 
+-                    result.append(sum_pairs[lo - 1][0])
+-            else:
+-                result.append(-1)
+-        return result
++        x = sorted([(a,b) for a,b in zip(nums1,nums2)], reverse=True)
++        q = sorted([(a,b,i) for i,(a,b) in enumerate(queries)], reverse=True)
++        i, maxy = 0, 0
++        res = defaultdict(int)
++        d = []
++        for a,b,j in q:
++            while i < len(x) and x[i][0] >= a:
++                if x[i][1] > maxy:
++                    maxy = x[i][1]
++                    while d and d[-1][1] < x[i][0]+x[i][1]:
++                        d.pop()
++                    d.append((maxy, x[i][0]+x[i][1]))
++                i += 1
++            try:
++                res[j] = d[bisect_left(d, (b, 0))][1]
++            except:
++                res[j] = -1
++        return [res[i] for i in range(len(q))]
+\ No newline at end of file

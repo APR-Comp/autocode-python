@@ -1,0 +1,92 @@
+--- painting-the-walls/0/src/solution.py	2023-11-27 21:36:38.435120315 +0200
++++ painting-the-walls/0/src/..//../reference.py	2023-11-27 23:16:59.564899479 +0200
+@@ -1,66 +1,32 @@
+-from typing import *
+-"""python
+- You are given two 0-indexed integer arrays, cost and time, of size n representing the costs and the time taken to paint n different walls respectively. There are two painters available:
++from typing import List
+ 
+-A paid painter that paints the i ** th wall in time[i] units of time and takes cost[i] units of money.
+-A free painter that paints any wall in 1 unit of time at a cost of 0. But the free painter can only be used if the paid painter is already occupied.
+ 
+-Return the minimum amount of money required to paint the n walls.
+- 
+-Example 1:
++class Solution:
++    def paintWalls(self, cost: List[int], time: List[int]) -> int:
++        postfix_times = time.copy()
+ 
+-Input: cost = [1,2,3,2], time = [1,2,3,2]
+-Output: 3
+-Explanation: The walls at index 0 and 1 will be painted by the paid painter, and it will take 3 units of time; meanwhile, the free painter will paint the walls at index 2 and 3, free of cost in 2 units of time. Thus, the total cost is 1 + 2 = 3.
++        for i in range(len(postfix_times) - 2, -1, -1):
++            postfix_times[i] += postfix_times[i +1]
+ 
+-Example 2:
++        visited = {}
+ 
+-Input: cost = [2,3,4,2], time = [1,1,1,1]
+-Output: 4
+-Explanation: The walls at index 0 and 3 will be painted by the paid painter, and it will take 2 units of time; meanwhile, the free painter will paint the walls at index 1 and 2, free of cost in 2 units of time. Thus, the total cost is 2 + 2 = 4.
++        def dp(index, time_painted):
++            if index == len(cost):
++                return 0 if time_painted >= 0 else float("inf")
+ 
+- 
+-Constraints:
++            if time_painted >= len(cost) - index:
++                return 0
+ 
+-1 <= cost.length <= 500
+-cost.length == time.length
+-1 <= cost[i] <= 10 ** 6
+-1 <= time[i] <= 500
++            if time_painted + postfix_times[index] < 0:
++                return float("inf")
+ 
+- """
+-class Solution:
+-    def paintWalls(self, cost: List[int], time: List[int]) -> int:
+-        n = len(cost)
+-        # Construct a list of tuples where each tuple is (cost, time, index)
+-        walls = sorted([(cost[i], time[i], i) for i in range(n)], reverse=True)  
+-        # reverse=True so that the list is sorted in descending order of cost.
+-        # If cost are same, the tuple with larger time will come first (as per Python's tuple comparison rule).
+-        
+-        # Initialize
+-        minCost = 0
+-        paidPainterFreeAt = 0
+-        freePainterWalls = []
+-        
+-        for wall in walls:
+-            wallCost, wallTime, wallIndex = wall
++            if (index, time_painted) in visited:
++                return visited[(index, time_painted)]
+             
+-            # If paid painter is free, assign this wall to him
+-            if paidPainterFreeAt <= wallIndex:
+-                minCost += wallCost
+-                paidPainterFreeAt = wallIndex + wallTime
+-            else:
+-                # If paid painter is not free, assign this wall to free painter
+-                freePainterWalls.append(wallIndex)
++            visited[(index, time_painted)] = min(
++                dp(index + 1, time_painted - 1),
++                cost[index] + dp(index + 1,
++                time_painted + time[index]))
++            return visited[(index, time_painted)]
+         
+-        # Now let's see if the free painter can finish his walls before the paid painter
+-        freePainterWalls.sort()  # sort the indices
+-        if freePainterWalls and freePainterWalls[-1] >= paidPainterFreeAt:
+-            # Now we need to remove some walls from the free painter and give them to the paid painter
+-            # We should start removing from the walls with lower cost
+-            for wall in walls[::-1]:  # reversed because we want to start from lower costs
+-                if wall[2] in freePainterWalls and wall[2] + wall[1] > paidPainterFreeAt:
+-                    minCost += wall[0]
+-                    paidPainterFreeAt = wall[2] + wall[1]
+-                    freePainterWalls.remove(wall[2])  # remove this wall from free painter
+-                    
+-        return minCost
++        return dp(0, 0)
+\ No newline at end of file
