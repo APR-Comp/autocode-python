@@ -14,7 +14,7 @@
     "source_file": "solution.py",
     "subject": "collecting-chocolates",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_119",
       "newtest_3344",
       "newtest_6901",
@@ -22,7 +22,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1082",
       "newtest_2446",
       "newtest_4725",
@@ -49,7 +49,7 @@
     "source_file": "solution.py",
     "subject": "collecting-chocolates",
     "bug_id": "1",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_119",
       "newtest_3344",
       "newtest_6901",
@@ -57,7 +57,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1082",
       "newtest_2446",
       "newtest_4725",
@@ -84,14 +84,14 @@
     "source_file": "solution.py",
     "subject": "collecting-chocolates",
     "bug_id": "4",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_119",
       "newtest_3344",
       "newtest_6901",
       "newtest_8213",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1082",
       "newtest_2446",
       "newtest_4725",
@@ -119,7 +119,7 @@
     "source_file": "solution.py",
     "subject": "collecting-chocolates",
     "bug_id": "7",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_119",
       "newtest_3344",
       "newtest_6901",
@@ -127,7 +127,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1082",
       "newtest_2446",
       "newtest_4725",
@@ -154,7 +154,7 @@
     "source_file": "solution.py",
     "subject": "collecting-chocolates",
     "bug_id": "9",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_119",
       "newtest_3344",
       "newtest_6901",
@@ -162,7 +162,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1082",
       "newtest_2446",
       "newtest_4725",
@@ -189,7 +189,7 @@
     "source_file": "solution.py",
     "subject": "count-the-number-of-complete-components",
     "bug_id": "1",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2154",
       "newtest_2855",
       "newtest_4036",
@@ -197,7 +197,7 @@
       "newtest_9889",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2226",
       "newtest_3924",
       "newtest_5009",
@@ -223,7 +223,7 @@
     "source_file": "solution.py",
     "subject": "count-the-number-of-complete-components",
     "bug_id": "2",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2154",
       "newtest_2855",
       "newtest_4036",
@@ -231,7 +231,7 @@
       "newtest_9889",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2226",
       "newtest_3924",
       "newtest_5009",
@@ -257,7 +257,7 @@
     "source_file": "solution.py",
     "subject": "count-the-number-of-complete-components",
     "bug_id": "4",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2154",
       "newtest_2855",
       "newtest_4036",
@@ -265,7 +265,7 @@
       "newtest_9889",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2226",
       "newtest_3924",
       "newtest_5009",
@@ -291,7 +291,7 @@
     "source_file": "solution.py",
     "subject": "count-the-number-of-complete-components",
     "bug_id": "8",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2154",
       "newtest_2855",
       "newtest_4036",
@@ -299,7 +299,7 @@
       "newtest_9889",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2226",
       "newtest_3924",
       "newtest_5009",
@@ -325,7 +325,7 @@
     "source_file": "solution.py",
     "subject": "count-the-number-of-complete-components",
     "bug_id": "9",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2154",
       "newtest_2855",
       "newtest_4036",
@@ -333,7 +333,7 @@
       "newtest_9889",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2226",
       "newtest_3924",
       "newtest_5009",
@@ -359,7 +359,7 @@
     "source_file": "solution.py",
     "subject": "difference-of-number-of-distinct-values-on-diagonals",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1811",
       "newtest_2176",
       "newtest_2211",
@@ -370,7 +370,7 @@
       "newtest_8959",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_3699",
       "newtest_6884",
       "test_1"
@@ -393,7 +393,7 @@
     "source_file": "solution.py",
     "subject": "difference-of-number-of-distinct-values-on-diagonals",
     "bug_id": "1",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1811",
       "newtest_2176",
       "newtest_2211",
@@ -404,7 +404,7 @@
       "newtest_8959",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_3699",
       "newtest_6884",
       "test_1"
@@ -427,7 +427,7 @@
     "source_file": "solution.py",
     "subject": "difference-of-number-of-distinct-values-on-diagonals",
     "bug_id": "5",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1811",
       "newtest_2176",
       "newtest_5238",
@@ -435,7 +435,7 @@
       "newtest_8959",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2211",
       "newtest_3643",
       "newtest_3699",
@@ -461,10 +461,10 @@
     "source_file": "solution.py",
     "subject": "difference-of-number-of-distinct-values-on-diagonals",
     "bug_id": "8",
-    "failing_test": [
+    "failing_test_identifiers": [
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1811",
       "newtest_2176",
       "newtest_2211",
@@ -495,7 +495,7 @@
     "source_file": "solution.py",
     "subject": "difference-of-number-of-distinct-values-on-diagonals",
     "bug_id": "9",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1811",
       "newtest_2176",
       "newtest_2211",
@@ -506,7 +506,7 @@
       "newtest_8959",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_3699",
       "newtest_6884",
       "test_1"
@@ -529,14 +529,14 @@
     "source_file": "solution.py",
     "subject": "find-a-good-subset-of-the-matrix",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2135",
       "newtest_2849",
       "newtest_8586",
       "newtest_9698",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1419",
       "newtest_3490",
       "newtest_3801",
@@ -565,7 +565,7 @@
     "source_file": "solution.py",
     "subject": "find-a-good-subset-of-the-matrix",
     "bug_id": "1",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1419",
       "newtest_2849",
       "newtest_3490",
@@ -574,7 +574,7 @@
       "test_0",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2135",
       "newtest_3801",
       "newtest_5358",
@@ -601,7 +601,7 @@
     "source_file": "solution.py",
     "subject": "find-a-good-subset-of-the-matrix",
     "bug_id": "4",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1419",
       "newtest_2849",
       "newtest_3490",
@@ -610,7 +610,7 @@
       "test_0",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2135",
       "newtest_3801",
       "newtest_5358",
@@ -637,7 +637,7 @@
     "source_file": "solution.py",
     "subject": "find-a-good-subset-of-the-matrix",
     "bug_id": "5",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1419",
       "newtest_2849",
       "newtest_3490",
@@ -648,7 +648,7 @@
       "test_1",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2135",
       "newtest_3801",
       "newtest_5358",
@@ -673,7 +673,7 @@
     "source_file": "solution.py",
     "subject": "find-a-good-subset-of-the-matrix",
     "bug_id": "6",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1419",
       "newtest_2135",
       "newtest_2849",
@@ -683,7 +683,7 @@
       "test_0",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_3490",
       "newtest_5358",
       "newtest_8041",
@@ -709,10 +709,10 @@
     "source_file": "solution.py",
     "subject": "find-the-longest-semi-repetitive-substring",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_14000",
       "newtest_16938",
       "newtest_19805",
@@ -745,7 +745,7 @@
     "source_file": "solution.py",
     "subject": "find-the-longest-semi-repetitive-substring",
     "bug_id": "2",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_19805",
       "newtest_49239",
       "newtest_53691",
@@ -753,7 +753,7 @@
       "test_1",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_14000",
       "newtest_16938",
       "newtest_36454",
@@ -781,7 +781,7 @@
     "source_file": "solution.py",
     "subject": "find-the-longest-semi-repetitive-substring",
     "bug_id": "4",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_14000",
       "newtest_16938",
       "newtest_36454",
@@ -790,7 +790,7 @@
       "newtest_80063",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_19805",
       "newtest_49239",
       "newtest_53691",
@@ -817,11 +817,11 @@
     "source_file": "solution.py",
     "subject": "find-the-longest-semi-repetitive-substring",
     "bug_id": "7",
-    "failing_test": [
+    "failing_test_identifiers": [
       "test_0",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_14000",
       "newtest_16938",
       "newtest_19805",
@@ -853,7 +853,7 @@
     "source_file": "solution.py",
     "subject": "find-the-longest-semi-repetitive-substring",
     "bug_id": "8",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_19805",
       "newtest_49239",
       "newtest_53691",
@@ -862,7 +862,7 @@
       "test_1",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_14000",
       "newtest_16938",
       "newtest_36454",
@@ -889,14 +889,14 @@
     "source_file": "solution.py",
     "subject": "find-the-punishment-number-of-an-integer",
     "bug_id": "2",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2204",
       "newtest_4058",
       "newtest_784",
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_13",
       "newtest_2817",
       "newtest_3848",
@@ -925,14 +925,14 @@
     "source_file": "solution.py",
     "subject": "find-the-punishment-number-of-an-integer",
     "bug_id": "3",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2204",
       "newtest_4058",
       "newtest_784",
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_13",
       "newtest_2817",
       "newtest_3848",
@@ -961,14 +961,14 @@
     "source_file": "solution.py",
     "subject": "find-the-punishment-number-of-an-integer",
     "bug_id": "5",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2204",
       "newtest_4058",
       "newtest_784",
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_13",
       "newtest_2817",
       "newtest_3848",
@@ -997,14 +997,14 @@
     "source_file": "solution.py",
     "subject": "find-the-punishment-number-of-an-integer",
     "bug_id": "7",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2204",
       "newtest_4058",
       "newtest_784",
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_13",
       "newtest_2817",
       "newtest_3848",
@@ -1033,14 +1033,14 @@
     "source_file": "solution.py",
     "subject": "find-the-punishment-number-of-an-integer",
     "bug_id": "8",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2204",
       "newtest_4058",
       "newtest_784",
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_13",
       "newtest_2817",
       "newtest_3848",
@@ -1069,7 +1069,7 @@
     "source_file": "solution.py",
     "subject": "find-the-value-of-the-partition",
     "bug_id": "1",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_20841",
       "newtest_29775",
       "newtest_51191",
@@ -1080,7 +1080,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_19538",
       "newtest_23760",
       "newtest_28843",
@@ -1104,7 +1104,7 @@
     "source_file": "solution.py",
     "subject": "find-the-value-of-the-partition",
     "bug_id": "2",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_29775",
       "newtest_51191",
       "newtest_65421",
@@ -1113,7 +1113,7 @@
       "newtest_84574",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_19538",
       "newtest_20841",
       "newtest_23760",
@@ -1139,7 +1139,7 @@
     "source_file": "solution.py",
     "subject": "find-the-value-of-the-partition",
     "bug_id": "3",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_20841",
       "newtest_29775",
       "newtest_51191",
@@ -1150,7 +1150,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_19538",
       "newtest_23760",
       "newtest_28843",
@@ -1174,7 +1174,7 @@
     "source_file": "solution.py",
     "subject": "find-the-value-of-the-partition",
     "bug_id": "5",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_20841",
       "newtest_29775",
       "newtest_51191",
@@ -1185,7 +1185,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_19538",
       "newtest_23760",
       "newtest_28843",
@@ -1209,7 +1209,7 @@
     "source_file": "solution.py",
     "subject": "find-the-value-of-the-partition",
     "bug_id": "7",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_20841",
       "newtest_29775",
       "newtest_51191",
@@ -1220,7 +1220,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_19538",
       "newtest_23760",
       "newtest_28843",
@@ -1244,12 +1244,12 @@
     "source_file": "solution.py",
     "subject": "greatest-common-divisor-traversal",
     "bug_id": "2",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_591",
       "test_0",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_220",
       "newtest_463",
       "newtest_596",
@@ -1279,11 +1279,11 @@
     "source_file": "solution.py",
     "subject": "greatest-common-divisor-traversal",
     "bug_id": "5",
-    "failing_test": [
+    "failing_test_identifiers": [
       "test_0",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_220",
       "newtest_463",
       "newtest_591",
@@ -1314,11 +1314,11 @@
     "source_file": "solution.py",
     "subject": "greatest-common-divisor-traversal",
     "bug_id": "6",
-    "failing_test": [
+    "failing_test_identifiers": [
       "test_0",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_220",
       "newtest_463",
       "newtest_591",
@@ -1349,11 +1349,11 @@
     "source_file": "solution.py",
     "subject": "greatest-common-divisor-traversal",
     "bug_id": "7",
-    "failing_test": [
+    "failing_test_identifiers": [
       "test_0",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_220",
       "newtest_463",
       "newtest_591",
@@ -1384,11 +1384,11 @@
     "source_file": "solution.py",
     "subject": "greatest-common-divisor-traversal",
     "bug_id": "8",
-    "failing_test": [
+    "failing_test_identifiers": [
       "test_0",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_220",
       "newtest_463",
       "newtest_591",
@@ -1419,13 +1419,13 @@
     "source_file": "solution.py",
     "subject": "lexicographically-smallest-string-after-substring-operation",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_38827",
       "newtest_7860",
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_134",
       "newtest_26924",
       "newtest_32843",
@@ -1457,7 +1457,7 @@
     "source_file": "solution.py",
     "subject": "lexicographically-smallest-string-after-substring-operation",
     "bug_id": "2",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_38827",
       "newtest_61913",
       "newtest_7860",
@@ -1465,7 +1465,7 @@
       "test_1",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_134",
       "newtest_26924",
       "newtest_32843",
@@ -1495,7 +1495,7 @@
     "source_file": "solution.py",
     "subject": "lexicographically-smallest-string-after-substring-operation",
     "bug_id": "5",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_38827",
       "newtest_61913",
       "newtest_7860",
@@ -1504,7 +1504,7 @@
       "test_2",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_134",
       "newtest_26924",
       "newtest_32843",
@@ -1533,7 +1533,7 @@
     "source_file": "solution.py",
     "subject": "lexicographically-smallest-string-after-substring-operation",
     "bug_id": "8",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_134",
       "newtest_26924",
       "newtest_32843",
@@ -1549,7 +1549,7 @@
       "test_3",
       "test_4"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_34125",
       "test_5"
     ],
@@ -1571,7 +1571,7 @@
     "source_file": "solution.py",
     "subject": "lexicographically-smallest-string-after-substring-operation",
     "bug_id": "9",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_38827",
       "newtest_61913",
       "newtest_7860",
@@ -1579,7 +1579,7 @@
       "test_1",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_134",
       "newtest_26924",
       "newtest_32843",
@@ -1609,7 +1609,7 @@
     "source_file": "solution.py",
     "subject": "maximum-strength-of-a-group",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2879",
       "newtest_3673",
       "newtest_4731",
@@ -1625,7 +1625,7 @@
       "test_2",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_4"
     ],
     "count_neg": 14,
@@ -1646,7 +1646,7 @@
     "source_file": "solution.py",
     "subject": "maximum-strength-of-a-group",
     "bug_id": "1",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2879",
       "newtest_3673",
       "newtest_4731",
@@ -1662,7 +1662,7 @@
       "test_2",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_4"
     ],
     "count_neg": 14,
@@ -1683,7 +1683,7 @@
     "source_file": "solution.py",
     "subject": "maximum-strength-of-a-group",
     "bug_id": "4",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2879",
       "newtest_3673",
       "newtest_7477",
@@ -1693,7 +1693,7 @@
       "test_1",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_4731",
       "newtest_5561",
       "newtest_6971",
@@ -1720,13 +1720,13 @@
     "source_file": "solution.py",
     "subject": "maximum-strength-of-a-group",
     "bug_id": "7",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_7477",
       "test_0",
       "test_1",
       "test_4"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2879",
       "newtest_3673",
       "newtest_4731",
@@ -1757,11 +1757,11 @@
     "source_file": "solution.py",
     "subject": "maximum-strength-of-a-group",
     "bug_id": "8",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_7477",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2879",
       "newtest_3673",
       "newtest_4731",
@@ -1794,7 +1794,7 @@
     "source_file": "solution.py",
     "subject": "maximum-strictly-increasing-cells-in-a-matrix",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1788",
       "newtest_3342",
       "newtest_3361",
@@ -1804,7 +1804,7 @@
       "newtest_6014",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_6040",
       "newtest_6955",
       "newtest_7760",
@@ -1830,7 +1830,7 @@
     "source_file": "solution.py",
     "subject": "maximum-strictly-increasing-cells-in-a-matrix",
     "bug_id": "1",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1788",
       "newtest_3342",
       "newtest_3361",
@@ -1840,7 +1840,7 @@
       "newtest_6014",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_6040",
       "newtest_6955",
       "newtest_7760",
@@ -1866,7 +1866,7 @@
     "source_file": "solution.py",
     "subject": "maximum-strictly-increasing-cells-in-a-matrix",
     "bug_id": "7",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1788",
       "newtest_3342",
       "newtest_3361",
@@ -1875,7 +1875,7 @@
       "newtest_6040",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_5729",
       "newtest_6014",
       "newtest_6955",
@@ -1902,7 +1902,7 @@
     "source_file": "solution.py",
     "subject": "maximum-strictly-increasing-cells-in-a-matrix",
     "bug_id": "8",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_3342",
       "newtest_3361",
       "newtest_3814",
@@ -1916,7 +1916,7 @@
       "test_1",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1788",
       "test_3"
     ],
@@ -1938,7 +1938,7 @@
     "source_file": "solution.py",
     "subject": "maximum-strictly-increasing-cells-in-a-matrix",
     "bug_id": "9",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1788",
       "newtest_3342",
       "newtest_3361",
@@ -1952,7 +1952,7 @@
       "test_2",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_0",
       "test_1"
     ],
@@ -1974,7 +1974,7 @@
     "source_file": "solution.py",
     "subject": "maximum-sum-queries",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2120",
       "newtest_3339",
       "newtest_4312",
@@ -1986,7 +1986,7 @@
       "newtest_9883",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_6383",
       "test_1",
       "test_2",
@@ -2010,7 +2010,7 @@
     "source_file": "solution.py",
     "subject": "maximum-sum-queries",
     "bug_id": "1",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2120",
       "newtest_3339",
       "newtest_4312",
@@ -2024,7 +2024,7 @@
       "test_1",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_9883",
       "test_3"
     ],
@@ -2046,7 +2046,7 @@
     "source_file": "solution.py",
     "subject": "maximum-sum-queries",
     "bug_id": "2",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_3339",
       "newtest_4312",
       "newtest_457",
@@ -2056,7 +2056,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2120",
       "newtest_7906",
       "newtest_9381",
@@ -2082,7 +2082,7 @@
     "source_file": "solution.py",
     "subject": "maximum-sum-queries",
     "bug_id": "3",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2120",
       "newtest_3339",
       "newtest_4312",
@@ -2091,7 +2091,7 @@
       "newtest_7906",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_5353",
       "newtest_6383",
       "newtest_9381",
@@ -2118,13 +2118,13 @@
     "source_file": "solution.py",
     "subject": "maximum-sum-queries",
     "bug_id": "4",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_4312",
       "newtest_6881",
       "newtest_7906",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2120",
       "newtest_3339",
       "newtest_457",
@@ -2154,7 +2154,7 @@
     "source_file": "solution.py",
     "subject": "minimize-string-length",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_16824",
       "newtest_18528",
       "newtest_30323",
@@ -2170,7 +2170,7 @@
       "test_3",
       "test_4"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_2"
     ],
     "count_neg": 14,
@@ -2191,14 +2191,14 @@
     "source_file": "solution.py",
     "subject": "minimize-string-length",
     "bug_id": "1",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_30323",
       "test_0",
       "test_1",
       "test_2",
       "test_3"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_16824",
       "newtest_18528",
       "newtest_41448",
@@ -2228,11 +2228,11 @@
     "source_file": "solution.py",
     "subject": "minimize-string-length",
     "bug_id": "3",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_30323",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_16824",
       "newtest_18528",
       "newtest_41448",
@@ -2265,11 +2265,11 @@
     "source_file": "solution.py",
     "subject": "minimize-string-length",
     "bug_id": "5",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_30323",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_16824",
       "newtest_18528",
       "newtest_41448",
@@ -2302,11 +2302,11 @@
     "source_file": "solution.py",
     "subject": "minimize-string-length",
     "bug_id": "6",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_30323",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_16824",
       "newtest_18528",
       "newtest_41448",
@@ -2339,12 +2339,12 @@
     "source_file": "solution.py",
     "subject": "minimum-cost-to-make-all-characters-equal",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_16537",
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_14334",
       "newtest_1583",
       "newtest_21059",
@@ -2374,7 +2374,7 @@
     "source_file": "solution.py",
     "subject": "minimum-cost-to-make-all-characters-equal",
     "bug_id": "2",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_21059",
       "newtest_69526",
       "newtest_88276",
@@ -2382,7 +2382,7 @@
       "test_1",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_14334",
       "newtest_1583",
       "newtest_16537",
@@ -2409,12 +2409,12 @@
     "source_file": "solution.py",
     "subject": "minimum-cost-to-make-all-characters-equal",
     "bug_id": "4",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_16537",
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_14334",
       "newtest_1583",
       "newtest_21059",
@@ -2444,12 +2444,12 @@
     "source_file": "solution.py",
     "subject": "minimum-cost-to-make-all-characters-equal",
     "bug_id": "6",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1583",
       "newtest_52093",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_14334",
       "newtest_16537",
       "newtest_21059",
@@ -2479,14 +2479,14 @@
     "source_file": "solution.py",
     "subject": "minimum-cost-to-make-all-characters-equal",
     "bug_id": "8",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1583",
       "newtest_16537",
       "newtest_52093",
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_14334",
       "newtest_21059",
       "newtest_42433",
@@ -2514,11 +2514,11 @@
     "source_file": "solution.py",
     "subject": "number-of-adjacent-elements-with-the-same-color",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_3226",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1224",
       "newtest_1736",
       "newtest_3386",
@@ -2548,11 +2548,11 @@
     "source_file": "solution.py",
     "subject": "number-of-adjacent-elements-with-the-same-color",
     "bug_id": "3",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_3226",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1224",
       "newtest_1736",
       "newtest_3386",
@@ -2582,7 +2582,7 @@
     "source_file": "solution.py",
     "subject": "number-of-adjacent-elements-with-the-same-color",
     "bug_id": "4",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1224",
       "newtest_1736",
       "newtest_3226",
@@ -2593,7 +2593,7 @@
       "newtest_9619",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_492",
       "newtest_993",
       "test_1"
@@ -2616,11 +2616,11 @@
     "source_file": "solution.py",
     "subject": "number-of-adjacent-elements-with-the-same-color",
     "bug_id": "6",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_3226",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1224",
       "newtest_1736",
       "newtest_3386",
@@ -2650,7 +2650,7 @@
     "source_file": "solution.py",
     "subject": "number-of-adjacent-elements-with-the-same-color",
     "bug_id": "7",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1224",
       "newtest_1736",
       "newtest_3226",
@@ -2661,7 +2661,7 @@
       "newtest_9619",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_492",
       "newtest_993",
       "test_1"
@@ -2684,7 +2684,7 @@
     "source_file": "solution.py",
     "subject": "painting-the-walls",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_3160",
       "newtest_3891",
       "newtest_4335",
@@ -2696,7 +2696,7 @@
       "newtest_9548",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_9193",
       "test_0",
       "test_2"
@@ -2719,7 +2719,7 @@
     "source_file": "solution.py",
     "subject": "painting-the-walls",
     "bug_id": "1",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_3160",
       "newtest_3891",
       "newtest_4335",
@@ -2732,7 +2732,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_9193",
       "test_2"
     ],
@@ -2754,13 +2754,13 @@
     "source_file": "solution.py",
     "subject": "painting-the-walls",
     "bug_id": "2",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_3160",
       "newtest_7477",
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_3891",
       "newtest_4335",
       "newtest_5037",
@@ -2789,7 +2789,7 @@
     "source_file": "solution.py",
     "subject": "painting-the-walls",
     "bug_id": "6",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_3160",
       "newtest_3891",
       "newtest_4335",
@@ -2802,7 +2802,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_9193",
       "test_2"
     ],
@@ -2824,7 +2824,7 @@
     "source_file": "solution.py",
     "subject": "painting-the-walls",
     "bug_id": "7",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_3160",
       "newtest_3891",
       "newtest_4335",
@@ -2837,7 +2837,7 @@
       "test_0",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_9193",
       "test_1"
     ],
@@ -2859,7 +2859,7 @@
     "source_file": "solution.py",
     "subject": "power-of-heroes",
     "bug_id": "1",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_24",
       "newtest_3746",
       "newtest_6591",
@@ -2868,7 +2868,7 @@
       "newtest_9193",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1499",
       "newtest_4090",
       "newtest_7606",
@@ -2894,7 +2894,7 @@
     "source_file": "solution.py",
     "subject": "power-of-heroes",
     "bug_id": "4",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_24",
       "newtest_3746",
       "newtest_6591",
@@ -2904,7 +2904,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1499",
       "newtest_4090",
       "newtest_7606",
@@ -2929,7 +2929,7 @@
     "source_file": "solution.py",
     "subject": "power-of-heroes",
     "bug_id": "5",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_24",
       "newtest_3746",
       "newtest_6591",
@@ -2939,7 +2939,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1499",
       "newtest_4090",
       "newtest_7606",
@@ -2964,7 +2964,7 @@
     "source_file": "solution.py",
     "subject": "power-of-heroes",
     "bug_id": "6",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_3746",
       "newtest_6591",
       "newtest_7101",
@@ -2972,7 +2972,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1499",
       "newtest_24",
       "newtest_4090",
@@ -2999,7 +2999,7 @@
     "source_file": "solution.py",
     "subject": "power-of-heroes",
     "bug_id": "9",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_24",
       "newtest_3746",
       "newtest_6591",
@@ -3009,7 +3009,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_1499",
       "newtest_4090",
       "newtest_7606",
@@ -3034,7 +3034,7 @@
     "source_file": "solution.py",
     "subject": "semi-ordered-permutation",
     "bug_id": "1",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2804",
       "newtest_4163",
       "newtest_4809",
@@ -3046,7 +3046,7 @@
       "test_0",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_4649",
       "newtest_9479",
       "test_1"
@@ -3069,7 +3069,7 @@
     "source_file": "solution.py",
     "subject": "semi-ordered-permutation",
     "bug_id": "2",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2804",
       "newtest_4163",
       "newtest_4649",
@@ -3082,7 +3082,7 @@
       "test_0",
       "test_2"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_9690",
       "test_1"
     ],
@@ -3104,7 +3104,7 @@
     "source_file": "solution.py",
     "subject": "semi-ordered-permutation",
     "bug_id": "3",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2804",
       "newtest_4163",
       "newtest_4649",
@@ -3118,7 +3118,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_2"
     ],
     "count_neg": 12,
@@ -3139,7 +3139,7 @@
     "source_file": "solution.py",
     "subject": "semi-ordered-permutation",
     "bug_id": "5",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2804",
       "newtest_4163",
       "newtest_4649",
@@ -3152,7 +3152,7 @@
       "newtest_9690",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_0",
       "test_2"
     ],
@@ -3174,7 +3174,7 @@
     "source_file": "solution.py",
     "subject": "semi-ordered-permutation",
     "bug_id": "6",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_2804",
       "newtest_4163",
       "newtest_4649",
@@ -3187,7 +3187,7 @@
       "newtest_9690",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_0",
       "test_2"
     ],
@@ -3209,7 +3209,7 @@
     "source_file": "solution.py",
     "subject": "sum-in-a-matrix",
     "bug_id": "0",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1755",
       "newtest_2082",
       "newtest_2131",
@@ -3222,7 +3222,7 @@
       "newtest_9589",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_1"
     ],
     "count_neg": 11,
@@ -3243,7 +3243,7 @@
     "source_file": "solution.py",
     "subject": "sum-in-a-matrix",
     "bug_id": "2",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1755",
       "newtest_2082",
       "newtest_2131",
@@ -3256,7 +3256,7 @@
       "newtest_9589",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_1"
     ],
     "count_neg": 11,
@@ -3277,7 +3277,7 @@
     "source_file": "solution.py",
     "subject": "sum-in-a-matrix",
     "bug_id": "5",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1755",
       "newtest_2082",
       "newtest_2131",
@@ -3290,7 +3290,7 @@
       "newtest_9589",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_1"
     ],
     "count_neg": 11,
@@ -3311,7 +3311,7 @@
     "source_file": "solution.py",
     "subject": "sum-in-a-matrix",
     "bug_id": "7",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1755",
       "newtest_2082",
       "newtest_2131",
@@ -3324,7 +3324,7 @@
       "newtest_9589",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_1"
     ],
     "count_neg": 11,
@@ -3345,7 +3345,7 @@
     "source_file": "solution.py",
     "subject": "sum-in-a-matrix",
     "bug_id": "8",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1755",
       "newtest_2082",
       "newtest_2131",
@@ -3358,7 +3358,7 @@
       "newtest_9589",
       "test_0"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_1"
     ],
     "count_neg": 11,
@@ -3379,7 +3379,7 @@
     "source_file": "solution.py",
     "subject": "total-distance-traveled",
     "bug_id": "2",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1807",
       "newtest_2511",
       "newtest_2720",
@@ -3393,7 +3393,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "test_2",
       "test_3",
       "test_4"
@@ -3416,7 +3416,7 @@
     "source_file": "solution.py",
     "subject": "total-distance-traveled",
     "bug_id": "3",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1807",
       "newtest_2511",
       "newtest_4973",
@@ -3427,7 +3427,7 @@
       "test_0",
       "test_1"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_2720",
       "newtest_4875",
       "newtest_7600",
@@ -3453,7 +3453,7 @@
     "source_file": "solution.py",
     "subject": "total-distance-traveled",
     "bug_id": "5",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1807",
       "newtest_2511",
       "newtest_2720",
@@ -3465,7 +3465,7 @@
       "newtest_7600",
       "test_4"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_656",
       "test_0",
       "test_1",
@@ -3490,7 +3490,7 @@
     "source_file": "solution.py",
     "subject": "total-distance-traveled",
     "bug_id": "6",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1807",
       "newtest_2511",
       "newtest_2720",
@@ -3503,7 +3503,7 @@
       "test_0",
       "test_4"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_656",
       "test_1",
       "test_2",
@@ -3527,7 +3527,7 @@
     "source_file": "solution.py",
     "subject": "total-distance-traveled",
     "bug_id": "9",
-    "failing_test": [
+    "failing_test_identifiers": [
       "newtest_1807",
       "newtest_2511",
       "newtest_2720",
@@ -3540,7 +3540,7 @@
       "test_0",
       "test_4"
     ],
-    "passing_test": [
+    "passing_test_identifiers": [
       "newtest_656",
       "test_1",
       "test_2",
